@@ -51,7 +51,7 @@ class RpcApi(object):
         self.list_proposals_params = ('show',)
 
         if version >= 120100:
-            self.governance_method = 'mngovernance'
+            self.governance_method = 'gobject'
             self.vote_method = 'voteraw'
 
             self.list_proposals_params = ('list',)
